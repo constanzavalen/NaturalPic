@@ -2,7 +2,7 @@ import { createContext, useEffect, useState } from "react";
 import axios from 'axios';
 export const PhotosContext = createContext();
 
-const URL = '/photos.json';
+const URL = '/NaturalPic/photos.json';
 
 const PhotosProvider = ({children}) => {
     const [photos, setPhotos] = useState([]);
