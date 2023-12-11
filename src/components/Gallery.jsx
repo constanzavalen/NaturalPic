@@ -6,8 +6,6 @@ import { Badge } from 'react-bootstrap';
 const Gallery = () => {
   const {photos, setPhotos} = useContext(PhotosContext)
 
-
-  } 
   const addFavorite = (id) => {
     const newPhotos = photos.map ((photo) =>{
       if (photo.id === id)
